@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-9=8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Harshitha|Portfolio</title>
+
+<style>
+body{
+	margin:0;
+	font-family:'Segoe UI'sans-serif;
+	background:linear-gradient(135deg,#1e1e2f,#3a3a5a);
+	color:white;
+}
+.container{
+	display:flex;
+	min-height:100vh;
+}
+.left,.right{
+	flex:1;
+	padding:40px;
+}
+.left{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+.left h1 span{
+	color:#00f7ff;
+}
+button{
+	padding:10px;
+	background:#00f7ff;
+	border:none;
+	cursor:pointer;
+	border-radius:5px;
+	margin-top:15px;
+}
+.right{
+	background:rgba(255,255,255,0,1);
+	border-left:2px solid #00f7ff;
+}
+.skill span{
+	background:#00f7ff;
+	color:black;
+	padding:5px 10px;
+	margin:5px;
+	display:inline-block;
+	border-radius:20px;
+}
+#contact{
+	text-allign:center;
+	padding:20px;
+	background:#111;
+}
+@media(max-width:768px){
+	.container{
+		flex-direction:column;
+	}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="left">
+<h1>Hi,we are<span>Harshitha and  Brahmari</span></h1>
+<p>A passionate frontend learners building creative web designs.</p>
+<button>
+</div class="right">
+<h2>My skill</h2>
+<div class="skills">
+<li><span>Css</span></li>
+<li><span>Java</span></li>
+</div>
+
+<h2>Projects</h2>
+<ul>
+<li>Electricity bill tracker website</li>
+<li>pg rental management system</li>
+</ul>
+</div>
+</div>
+<section id="contact">
+<h2>Contact</h2>
+<p>Email:2024beais135@mite.ac.in</p>
+<script>
+function scorllToContact(){
+document.getElementByte("contact").scrollIntroView({behave:"smoth"});
+</script>
+</body>
+</html>
